@@ -56,3 +56,42 @@ baseline.json
 
 # Husky
 .husky/_
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/tmp
+/out-tsc
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+/.vscode
+/.angular
+.angular
+.project
+.classpath
+.c9/
+*.launch
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System Files
+Thumbs.db
